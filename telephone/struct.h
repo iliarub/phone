@@ -5,7 +5,7 @@ typedef struct abonent
 {
 	char name[10];
 	char lname[10];
-	unsigned int tel;
+	char tel[11];
 } abonent;
 
 void menu();
